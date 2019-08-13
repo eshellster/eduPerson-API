@@ -1,0 +1,9 @@
+{
+  "name": "apiEduPerson",
+  "version": "1.0.0",
+  "description": "eduPerson API with graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/eshellster/eduPerson-API",
+  "author": "eshellstar@gmail.com",
+  "license": "MIT"
+}
