@@ -1,9 +1,19 @@
 {
-  "name": "apiEduPerson",
+  "name": "eduPerson-API",
   "version": "1.0.0",
-  "description": "eduPerson API with graphQL",
   "main": "index.js",
-  "repository": "https://github.com/eshellster/eduPerson-API",
-  "author": "eshellstar@gmail.com",
-  "license": "MIT"
+  "repository": "https://github.com/eshellster/eduPerson-API.git",
+  "author": "eshell <eshellster@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
 }
