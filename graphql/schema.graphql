@@ -1,4 +1,14 @@
-type Query {
+type Student {
+  id: String!
   name: String!
   age: Int!
+  gender: String!
+  elementarySchool: String!
+  middleSchool: String!
+  highSchool: String!
+}
+
+type Query {
+  student: [Student]!
+  person(id: String!): Student
 }

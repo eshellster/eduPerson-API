@@ -1,7 +1,9 @@
+import { student, getById } from "./db";
+
 const resolvers = {
   Query: {
-    name: () => "학생이름",
-    age: () => 19
+    student: () => student,
+    person: (_, { id }) => getById(id)
   }
 };
 
